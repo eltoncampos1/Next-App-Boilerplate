@@ -9,7 +9,7 @@
     "lint": "eslint src ",
     "prepare": "husky install"
   },
-  "lint-sategd": {
+  "lint-staged": {
     "src/**/*": [
       "yarn lint --fix"
     ]
