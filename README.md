@@ -1,34 +1,181 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Pre-requisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+## About The Project
+
+
+Design boilerplate with ReactJS, NextJs, Typescript and styled-components.
+Project pre-configured with eslint, prettier, husky and lint staged. In addition to all the tests like Jest and React testing library.
+
+
+### Built With
+
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+- [Typescript](https://www.typescriptlang.org)
+- [NextJS](https://nextjs.org)
+- [Styled-Components](https://styled-components.com)
+- [Jest](https://jestjs.io)
+
+
+<br/>
+
+
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
-First, run the development server:
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-```bash
-npm run dev
-# or
-yarn dev
+<br/>
+
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+
+- [npm](https://www.npmjs.com)
+
+```sh
+npm install npm@latest -g
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+npm install -g yarn
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<br/>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Create a next app using boilerplate
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```sh
+   yarn create next-app -e https://github.com/eltoncampos1/Next-App-Boilerplate
+   or
+   npx create-next-app -e https://github.com/eltoncampos1/Next-App-Boilerplate
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. enter the project folder
+   ```sh
+   cd file_name
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. Run server
+   ```sh
+   npm or yarn dev
+   ```
+
+<br/>
+
+
+## Usage
+
+Enter the boilerplate and adjust it as you see fit for your project.
+
+![as](https://user-images.githubusercontent.com/56568406/110221811-04ce4100-7ead-11eb-85ae-c0734672226e.PNG)
+
+
+<br/>
+
+
+# basic comands
+
+```json
+
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "eslint src ",
+  "prepare": "husky install",
+  "test": "jest",
+  "test:watch": "yarn test --watch"
+
+```
+
+
+<br/>
+
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+See the [open issues](https://github.com/eltoncampos1/Next-App-Boilerplate/issues) for a list of proposed features (and known issues).
+
+<br/>
+
+
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch
+   ```sh
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your Changes
+   ```sh
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. Push to the Branch
+   ```sh
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request
+
+<br/>
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<br/>
+
+## Contact
+
+
+
+
+LinkedIn - [Elton Campos](https://www.linkedin.com/in/elton-campos-074015164/)
+
+
+Email - [Elton Campos](eltoncampos36@gmail.com) - eltoncampos36@gmail.com
+
+
+Github - [eltoncampos1](https://github.com/eltoncampos1)
